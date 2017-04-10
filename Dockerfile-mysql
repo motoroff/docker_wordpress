@@ -1,0 +1,5 @@
+FROM mysql
+MAINTAINER sergey.motorny@vanderbilt.edu
+ENV BACKUPDIR /usr/local/mysql
+VOLUME /usr/local/mysql
+VOLUME /var/lib/mysql
